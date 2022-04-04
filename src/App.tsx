@@ -40,6 +40,8 @@ const App = () => {
     }
   }
 
+  
+
   return (
     <C.Container>
       <C.Area>
@@ -70,7 +72,7 @@ const App = () => {
           <C.ScrennWarning>
             <div className="emoji">😥</div>
             <div>Não há fotos cadastradas.</div>
-        </C.ScrennWarning>
+          </C.ScrennWarning>
         }
       </C.Area>
     </C.Container>

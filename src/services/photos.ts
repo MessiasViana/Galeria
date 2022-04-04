@@ -37,7 +37,7 @@ export const insert = async (file: File) => {
     }
 }
 
-export const remove = async ({name}: Photo) => {
+export const remove = async (name: string) => {
     const RemoveRef = ref(storage, `images/${name}`);
 
     deleteObject(RemoveRef).then(() => {
